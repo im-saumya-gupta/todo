@@ -1,0 +1,60 @@
+<%- include("header") -%>
+<section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+          <a class="navbar-brand" href="/">todoey</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo2">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>  
+              <li class="nav-item"><a class="nav-link" href="/signup">Signup</a></li>  
+              <li class="nav-item"><a class="nav-link" href="/about">About</a></li>  
+            </ul>
+          </div>   
+      </nav>
+    <!-- Title -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 id="heading" class="headingline">Organize it all with Todoey - Your Daily Manager.</h1>
+        <a href="/signup"> 
+        <button class="btn btn-dark btn-lg download-button" href="/signup" role="button">Signup</button>
+        </a>
+        <a href="/login">
+        <button class="btn btn-outline-light btn-lg download-button" href="/login" role="button">Login</button>
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <img class="title-img"src="images/hero.png" alt="pageimg">
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+
+    <div class="row">
+    <div class="features-box col-lg-4">
+      <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p class="para">You can work with it easily.</p>
+    </div>
+
+    <div class="features-box col-lg-4">
+      <i class="icon fas fa-bullseye fa-4x"></i>
+      <h3>Achieve peace of mind.</h3>
+      <p class="para">It's manage your work and Organize it.</p>
+    </div>
+
+    <div class="features-box col-lg-4">
+      <i class="icon fas fa-heart fa-4x"></i>
+      <h3>Beautiful layout</h3>
+    <p class="para">You can create number of custom lists as you need.</p>
+    </div>
+  </div>
+  </section>
+<%- include("footer") -%>

@@ -1,0 +1,31 @@
+<%- include("header") -%>
+<div class="container-fluid">
+<!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="/">todoey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo2">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/signup">Signup</a></li>  
+          </ul>
+        </div>   
+    </nav>
+<div>
+<!-- form for login -->
+<form class="form-signin" action="/login" method="POST">                                                
+  <h1 class="h3 mb-3 font-weight-normal">Log In here</h1>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input name="emailID" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus autocomplete="off"><br>
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" class="form-control" name="password" placeholder="Password" required autofocus autocomplete="off"> 
+  <div class="checkbox mb-3">
+  </div>
+  <div>
+    <button class="btn btn-outline-light btn-lg download-button mt-5 mb-3 text-muted" type="submit">Log In</button>
+  </div>
+  <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+</form>
+</div>
